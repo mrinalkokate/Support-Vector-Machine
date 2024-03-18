@@ -1,8 +1,16 @@
 # Support-Vector-Machine - Predict customer churn for Credit Card Business
 
-In a nutshell I am going to use CRISP-DM (Cross Industry Standard Process for Data Mining) process for data preparation wherein
-I need to understand The below steps:
-I. Business Understanding
+In a nutshell I am going to use CRISP-DM (Cross Industry Standard Process for Data Mining) process for data preparation wherein we will go through the following stages within Crisp-DM
+
+STAGES OF CRISPDM <br>
+<b>Business understanding</b> – What does the business need?<br>
+<b>Data understanding</b>  – What data do we have / need? Is it clean?<br>
+<b>Data preparation</b>  – How do we organize the data for modeling?<br>
+<b>Modeling</b>  – What modeling techniques should we apply?<br>
+<b>Evaluation</b>  – Which model best meets the business objectives?<br>
+<b>Deployment</b>  – How do stakeholders access the results?<br>
+
+<b>I. Business Understanding</b>
 
 <sub><b>1. What does the Business Need?</b>
    
@@ -85,6 +93,15 @@ Data Reading for Bank Data - To Predict Customer Churn for Credit Card Business.
 <img src="https://i.imgur.com/1fFdCmL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
+From the output of the above Data PREPARATION PART WE CAN SEE THAT THERE ARE 6237 Non-Null DATA and all have been successfully
+converted to Numerical DATA
+
+After the DATA PREPARATION PART within CRISP-DM Flow, we now need to perform DATA MODELING
+
+<sub>Within this we need to select modeling techniques
+Depending on the modeling approach we then split the data into Training, Testing and Validation sets.
+We then build the model. In this case we are using two Models - 1. Random Forest Technique and 2. support vector classifier.
+We then need to assess the model to determine which one we can use the best model as.
 
 
 
