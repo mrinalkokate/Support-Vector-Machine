@@ -177,8 +177,38 @@ USED GRID SEARCH METHOD TO DETERMINE BEST No. of FORESTS. <br/>
 <br />
 <p align="center">
 Here is the Outcome <br/>
-<img src="https://i.imgur.com/mF6G5H3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mF6G5H3.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
+
+<p align="center">
+Using Best Number of Forests we determined best Features. <br/>
+<img src="https://i.imgur.com/s4iIaYV.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+Found the best features. <br/>
+<img src="https://i.imgur.com/zclPLcQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+We then used Grid search with Best Features.<br/>
+<img src="https://i.imgur.com/IqcDAIR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+The Result shows <br/>
+<img src="https://i.imgur.com/moMD5t7.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+AGAIN REPEATING THE METHOD TO IDENTIFY THE BEST FOREST POSSIBLE <br/>
+<img src="https://i.imgur.com/TEDH0Mb.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
+
+
+
 
 
 
