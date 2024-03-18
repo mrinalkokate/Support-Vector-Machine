@@ -211,8 +211,54 @@ The Result shows <br/>
 
 STILL LOOKS LIKE THE ANSWER LIES BETWEEN 380 - 400 forests.
 AS THE RESULTS WHICH WE RECEIVED WAS BETTER FOR 400 Forest with 96.12% RECALL
-(Recall is prioritized when it's crucial to capture as many positives as possible, ensuring minimal false negatives.)
+<sub>(Recall is prioritized when it's crucial to capture as many positives as possible, ensuring minimal false negatives.)
 NOW Lets use the pipeline method
+
+
+What is from imblearn.pipeline import Pipeline method<br>
+<sub>The Pipeline method from the imblearn.pipeline module is a tool provided by the imbalanced-learn library (imblearn) in Python. It allows users to create pipelines for machine learning workflows, specifically designed for handling imbalanced datasets.
+
+<b>Pipeline:</b><br> 
+<sub>A pipeline is a sequence of data processing steps that are chained together, where the output of one step is used as the input to the next step. This is commonly used in machine learning workflows to streamline data preprocessing, feature engineering, model training, and evaluation.
+
+
+<b>imblearn:</b><br>
+<sub>The imbalanced-learn library (imblearn) is a Python library specifically designed for handling imbalanced datasets, where one class is significantly more prevalent than the others. It provides various techniques for resampling and adjusting class distributions to address issues caused by class imbalance.
+
+<b>from imblearn.pipeline import Pipeline: </b><br>
+<sub>This line of code imports the Pipeline class from the imblearn.pipeline module. With this method, you can create a pipeline that includes both data preprocessing steps (e.g., scaling, feature selection) and machine learning algorithms (e.g., classifiers) while also integrating imbalanced data handling techniques provided by imbalanced-learn.
+
+<p align="center">
+Using PIPELINE Method.<br/>
+<img src="https://i.imgur.com/won9SYx.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+The Result shows <br/>
+<img src="https://i.imgur.com/jLjwezR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
+
+Support Vector Machine<br>
+
+A Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. Here's a simple explanation of how it works for classification:
+
+-   <b>Data Representation:</b> SVM works by representing data points as points in space. Each data point is plotted as a point in an n-dimensional space (where n is the number of features in the dataset), with the value of each feature corresponding to a particular coordinate.
+
+-   <b>Finding the Hyperplane:</b> SVM's primary objective is to find the best hyperplane that separates the data into different classes with the largest possible margin. A hyperplane is a line or plane that divides the feature space into two parts.
+
+-   <b>Maximizing Margin:</b> The margin is the distance between the hyperplane and the nearest data point from either class. SVM aims to find the hyperplane that maximizes this margin, meaning it tries to find the hyperplane that is farthest from the nearest data points of any class.
+
+-   <b>Support Vectors: </b>The data points that lie closest to the hyperplane are known as support vectors. These are the critical data points that determine the position and orientation of the hyperplane. SVM only relies on these support vectors to make decisions, which makes it memory-efficient and computationally efficient.
+
+-   <b>Kernel Trick:</b> SVM can efficiently handle non-linear decision boundaries by transforming the input features into a higher-dimensional space using a kernel function. This allows SVM to find a linear hyperplane in the transformed feature space, which corresponds to a non-linear decision boundary in the original feature space.
+
+<sub>In summary, Support Vector Machine is a powerful algorithm that finds the optimal hyperplane to separate data points of different classes while maximizing the margin between them. It is widely used for classification tasks due to its effectiveness in handling both linear and non-linear decision boundaries.
+
+<p align="center">
+When using SVM : Support Vector Machine<br/>
+<img src="https://i.imgur.com/pCnT1zh.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<br />
+
+
 
 
 
