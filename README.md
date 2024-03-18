@@ -258,7 +258,18 @@ When using SVM : Support Vector Machine<br/>
 <img src="https://i.imgur.com/pCnT1zh.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 
+CONCLUSION: <br>
+Results analysis<br>
+a). Which of the two models (random forest or support vector classifier) would you recommend for deployment in the real-world?<br>
 
+b). Is any model underfitting? If yes, what could be the possible reasons?
+
+Answer: A : I would recommend to use Random Forest than Support Vector Machine as from the above results it implies that the "RECALL" Metric is higher for 
+Random Forest than Support Vector Machine. This inturn favours so that we can achieve high rate of True Positives and reduce "False Negatives".<br>
+
+
+Answer B: No the Model doesn't at all looks like underfitting as we are using proper mechanisms and ensemble to use permutations and combinations of various 
+features and preparing multiple different models with more features.
 
 
 
