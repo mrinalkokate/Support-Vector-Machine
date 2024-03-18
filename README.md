@@ -135,3 +135,50 @@ Hyperparameters in Random Forest:
 <sub>Specifies whether bootstrap samples (sampling with replacement) should be used when building trees. Setting this parameter to True enables bootstrapping, which is the default behavior in Random Forest.
 
 
+<b>There are 2 hyperparameters in RandomForest which are :</b><br>
+
+<sub>1. The number of trees which we are using to evaluate<br>
+2. The number of features which gets used to create different random forest.
+
+I will be concentrating on using the hyperparameter of the best number of trees as you can that STILL LOOKS LIKE THE ANSWER LIES BETWEEN 380 - 400 forests.
+AS THE RESULTS WHICH WE RECEIVED WAS BETTER FOR 400 Forest with 96.12% RECALL (RESOLVED DOWN THE PAGE.)
+
+
+<b> 3. Choice of Evaluation Metric (Which metric would be suitable for model evaluation and why?)</b><br>
+    
+<sub> Recall is prioritized when it's crucial to capture as many positives as possible, ensuring minimal false negatives.
+ IN terms of the current data set we intend to capture if the customer will be retained by the bank or not for their credit card business or not.
+In order to apply the model, we need to reduce the False Negatives wherein we are reducing the number of predictions about
+identifying the customers who we identify as NOT BEING CHURNING, but they end up churning. This is what we need to
+reduce the "False Negatives".
+Recall is a metric that measures how often a machine learning model correctly identifies positive instances (true positives) from all the actual positive samples in the dataset.
+
+
+5. Overfitting avoidance mechanism (Which mechanism (feature Selection/ regularization) would you use and why?)<br>
+   
+<sub>First Let us talk about overfitting and why it occurs: Overfitting is caused if we get 100% accuracy using the test data set and model is unable to generalize.
+The results would not be true if a new data set for validation is provided.
+
+There are different methods with which we can overcome overfitting. 
+
+1. Ensemble
+2. Cross-Validation(K-Folds)
+3. Feature Selection 
+4. Regularization.
+
+Ensemble: <br>
+<sub>Out of these we are using Ensemble which is prominent in building multiple models by selecting random feature sets to improve performance and generalization.
+Cross-Validation : By splitting the data into multiple data sets and then training the model of these datasets. Also keeping one data set for validation.
+
+
+<p align="center">
+USED GRID SEARCH METHOD TO DETERMINE BEST No. of FORESTS. <br/>
+<img src="https://i.imgur.com/7qxne37.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+Here is the Outcome <br/>
+<img src="https://i.imgur.com/mF6G5H3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
