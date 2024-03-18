@@ -116,7 +116,22 @@ Hyperparameters in Random Forest:
 
 <sub>Random Forest is a versatile ensemble learning algorithm that combines multiple decision trees to create a more robust and accurate model. However, it has several hyperparameters that need to be set before training the model. Some of the key hyperparameters in Random Forest include
 
-<sub><b>n_estimators:</b><br>
-Parameter determines the number of decision trees to be used in the forest. Increasing the number of trees generally improves the performance of the model, but it also increases computational cost.
+<b>n_estimators:</b><br>
+<sub>Parameter determines the number of decision trees to be used in the forest. Increasing the number of trees generally improves the performance of the model, but it also increases computational cost.
+
+<b>max_depth:</b> <br>
+<sub>Specifies the maximum depth of each decision tree in the forest. Deeper trees can capture more complex relationships in the data, but they are also more prone to overfitting.
+
+<b>min_samples_split: </b><br>
+<sub>The minimum number of samples required to split an internal node. Increasing this parameter can help prevent overfitting by ensuring that each split contains a minimum number of samples.
+
+<b>min_samples_leaf: </b><br>
+<sub>The minimum number of samples required to be at a leaf node. Similar to min_samples_split, increasing this parameter can help control the size of the tree and prevent overfitting.
+
+<b>max_features:</b><br> 
+<sub>The number of features to consider when looking for the best split. Setting this parameter to a lower value can help reduce the variance of the model and prevent overfitting.
+
+<b>bootstrap: </b><br>
+<sub>Specifies whether bootstrap samples (sampling with replacement) should be used when building trees. Setting this parameter to True enables bootstrapping, which is the default behavior in Random Forest.
 
 
