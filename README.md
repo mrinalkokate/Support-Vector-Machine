@@ -103,6 +103,20 @@ Depending on the modeling approach we then split the data into Training, Testing
 We then build the model. In this case we are using two Models - 1. Random Forest Technique and 2. support vector classifier.
 We then need to assess the model to determine which one we can use the best model as.
 
+<p align="center">
+Using Ensemble to find out Important Features. <br/>
+<img src="https://i.imgur.com/3DwkKjt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 
+<sub>With what we were initially predicting looking at the Data set was maybe the top 2 or 3 parameters would be
+Months_Inactive, Months_on_Book and a small part as to what Credit_Limit. However, from the 1st Iteration of
+Random Forest Method we are nearing the imp features to be Total_Trans_Ct, Total_Trans_Amt and Total_Revolving_Bal.
+
+Hyperparameters in Random Forest:
+
+<sub>Random Forest is a versatile ensemble learning algorithm that combines multiple decision trees to create a more robust and accurate model. However, it has several hyperparameters that need to be set before training the model. Some of the key hyperparameters in Random Forest include
+
+<sub><b>n_estimators:</b><br>
+Parameter determines the number of decision trees to be used in the forest. Increasing the number of trees generally improves the performance of the model, but it also increases computational cost.
 
 
