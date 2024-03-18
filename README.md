@@ -204,8 +204,15 @@ AGAIN REPEATING THE METHOD TO IDENTIFY THE BEST FOREST POSSIBLE <br/>
 <img src="https://i.imgur.com/TEDH0Mb.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 
+<p align="center">
+The Result shows <br/>
+<img src="https://i.imgur.com/LsAG0im.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
 
-
+STILL LOOKS LIKE THE ANSWER LIES BETWEEN 380 - 400 forests.
+AS THE RESULTS WHICH WE RECEIVED WAS BETTER FOR 400 Forest with 96.12% RECALL
+(Recall is prioritized when it's crucial to capture as many positives as possible, ensuring minimal false negatives.)
+NOW Lets use the pipeline method
 
 
 
