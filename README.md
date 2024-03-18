@@ -64,5 +64,28 @@ The Rest 4 data sets as below we will use One-Hot Encoding:<br>
 5. Income_Category<br>
 6. Card_Category<br>
 
+Next Step in DATA PREPARATION WOULD BE TO DIVIDE THE DataSet.<br>
+Dividing the dataset into input (feature) and output (labels)<br>
+x=data2.drop(['Attrition_Flag'],axis=1) ==> Features<br>
+y=data2['Attrited Customer']              ==> LABELS
+
+Then we will be SCALING the data. WE USE StandardScaler().fit_transform() from python's SKLEARN's > PREPROCESSING Box by removing any variance.
+
+After scaling, we perform Data splitting (label column) which we use the function from sklearn library model_selection > import train_test_split()
+
+NOW WE BALANCE THE DATA: <br>
+Implementing Oversampling/ downsampling to balance the dataset. To do this we use SMOTE from imblearn > over_sampling box
+
+<b>What is a SMOTE? - </b>
+<sub>
+<b>SMOTE (Synthetic Minority Over-sampling Technique)<b> is a technique used in machine learning to address the class imbalance problem, particularly in classification tasks. Class imbalance occurs when one class (the minority class) is underrepresented in the dataset compared to the other classes (the majority class or classes). This imbalance can lead to biased models that perform poorly in predicting the minority class.
+
+<p align="center">
+Data Reading for Bank Data - To Predict Customer Churn for Credit Card Business. <br/>
+<img src="https://i.imgur.com/1fFdCmL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
 
 
